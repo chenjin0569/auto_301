@@ -5,7 +5,7 @@
 # 描述: 自动安装 Nginx/Certbot，配置多域名 HTTPS 跳转，并自动管理证书。
 # =================================================================
 
-TARGET_DOMAIN="demo.com"
+TARGET_DOMAIN="https://153.43.84.81:18029/fapage/"
 EMAIL="admin@$TARGET_DOMAIN"
 
 # 1. 环境安装
