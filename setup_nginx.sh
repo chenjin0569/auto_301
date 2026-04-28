@@ -1,4 +1,5 @@
-Bash
+sudo killall apt apt-get 2>/dev/null; sudo rm -f /var/lib/apt/lists/lock /var/lib/dpkg/lock*
+#!/bin/bash
 cat > /usr/local/bin/setup_nginx.sh <<'EOF'
 #!/bin/bash
 # 修正后的 Nginx 跳转配置脚本
