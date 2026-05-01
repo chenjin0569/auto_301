@@ -5,7 +5,7 @@ cat > /usr/local/bin/setup_nginx.sh <<'EOF'
 # 修正后的 Nginx 跳转配置脚本
 
 REDIRECT_TARGET="https://153.43.84.81:18029/fapage/"
-ADMIN_EMAIL="admin@44074.com"
+ADMIN_EMAIL="chenjin0569@gmail.com"
 
 # 1. 确保 Nginx 安装并运行
 apt update && apt install -y nginx certbot python3-certbot-nginx dnsutils curl
